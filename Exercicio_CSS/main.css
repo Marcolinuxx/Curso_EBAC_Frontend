@@ -1,0 +1,79 @@
+
+        /* Notícias*/
+
+       *{
+            box-sizing: border-box;
+            margin: 0 2px;
+            padding: 0;
+            background-color: rgb(240, 210, 147);
+        }
+
+        header .container0 {
+            display:flex;
+            align-items: baseline;
+        }
+        .container0 #nav0 {
+            margin-right: 400px;
+            margin-left: -290px;
+        }
+        nav {
+            margin-left: 315px;
+        }
+
+        body >header {
+            background-color: rgb(236, 157, 10);
+            padding: 14px;
+            margin-bottom: 35px;
+        }
+
+        .subtitle {
+            position:relative;
+            left:27%;
+            bottom:15px;
+            font-size: 125%;
+            margin-bottom: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(179, 45, 45)
+        }
+
+        .container h2 {
+            margin-bottom: 5px;
+            margin-left: 5px;
+        }
+        .container h3 {
+            margin: 5px 0;
+        }
+        section {
+            margin-bottom:15px;
+            margin-left: 10px;
+            color:rgb(18, 94, 8)
+        }
+        .articles {
+            display: flex;
+            justify-content: space-between;
+        }
+        .articles a{
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            display:inline-block;
+        }
+        .articles p {
+            width: 450px;
+            margin: 3px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:rgb(51, 68, 5)
+        }
+        .articles img {
+            height: 200px;
+        }
+
+        .articles article {
+            width: 48%;
+        }
+        
+
+        h3 {
+            color:blueviolet;
+        }
+
