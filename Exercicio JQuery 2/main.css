@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+header {
+    display:flex;
+    color: rgb(233, 80, 19);
+    align-items: center;
+    padding: 25px 0;
+}
+
+header img {
+    height: 60px;
+}
+
+.container {
+    padding-top: 100px;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input {
+    width: 290px;
+    padding: 6px 10px;
+    font-size: 18px;
+}
+
+form {
+    margin-bottom: -10px;
+}
+
+form button {
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(84, 145, 84);
+}
+
+ul li img {
+    height: 10px;
+}
+
+.container ul li {
+    margin: 20px 0;
+    text-align:justify;
+    margin-left: 50px;
+    font-size: 15px;
+    list-style: none;
+}
+
+label {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#botao-apagar {
+    background-color: red;
+}
+
+
