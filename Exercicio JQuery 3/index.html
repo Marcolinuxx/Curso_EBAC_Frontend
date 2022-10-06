@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <form id="form-valid">
+        <label for="name">Nome completo:</label><br />
+        <input type="text" id="name" name="nome" style="font-style: italic" placeholder="Digite seu nome completo"></style> 
+
+        <label for="email">E-mail:</label>
+        <input type="e-mail" id="email" name="email" style="font-style: italic" placeholder="Digite seu e-mail"></style>
+
+        <div class="container-inline">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular">
+        </div>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" minlength="14" id="cpf" name="cpf" style="font-style: italic"></style>
+
+        <div class="container-inline2" style="text-align: center;">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" style="width: 150px;">-
+        <input type="text" id="cep2" name="cep2" style="width: 80px;">
+        </div>
+
+        <button type="submit">Enviar Informações</button>
+
+    </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+        
+</body>
+</html>

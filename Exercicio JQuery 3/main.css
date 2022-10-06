@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+header {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(65, 33, 95);
+    margin-bottom: 25px;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 100%;
+}
+
+form {
+    background-color: rgb(173, 245, 211);
+    padding: 8px;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+form input {
+    width: 100%;
+    background-color: rgb(238, 236, 141);
+    padding: 6px;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    border-left: 2px solid rgb(65, 33, 95);
+    border-bottom: 2px solid rgb(65, 33, 95);
+}
+
+.container-inline {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.container-inline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    margin: 0 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px 0;
+    border: none;
+    background-color:rgb(65, 33, 95);
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form button:hover {
+    background-color:rgb(158, 102, 204);
+}
+
+#name-error, #email-error,
+#telefone-error, #celular-error,
+#cpf-error, #cep-error, #cep2-error {
+    color: red;
+    display: block;
+    padding: 2px 0;
+    margin-bottom: 16px;
+    font-style: italic;
+    display: block;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
