@@ -1,0 +1,130 @@
+@use "./styles/reset.scss";
+@use "./styles/variaveis.scss";
+
+@mixin elementoForm(){
+    padding: 8px;
+    border: none;
+    font-size: 24px;
+    background-color: white;
+    border-bottom: 2px solid #000;
+    margin-inline-end: 15px;
+}
+
+body {
+    background-color: rgb(236, 229, 229);
+    padding-top: 100px;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    img {
+        height: 60px;
+        margin-right: 16px;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+
+    button {
+        @include elementoForm();
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        width: 160px;
+    }
+
+    #nome-atividade {
+        @include elementoForm();
+        width: 250px;
+    }
+
+    #nota-atividade {
+        @include elementoForm();
+    }
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+
+    td {
+        padding: 16px 0;
+        text-align: center;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        img {
+            height: 30px;
+        }
+    }
+
+    th {
+        border-bottom: 2px solid #000;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 16px;
+    }
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: green;
+}
+
+.reprovado {
+    background-color: red;
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    .container {
+        max-width: 60%;
+    }
+
+    form {
+        display: block;
+        
+        button {
+            margin-top: 15px;
+        }
+    }
+
+    table th {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: variaveis.$tablet) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+
+
