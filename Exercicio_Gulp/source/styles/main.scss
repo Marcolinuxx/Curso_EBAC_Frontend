@@ -1,5 +1,5 @@
-@use "./styles/reset.scss";
-@use "./styles/variaveis.scss";
+@use "./source/styles/reset.scss";
+@use "./source/styles/variaveis.scss";
 
 @mixin elementoForm(){
     padding: 8px;
