@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Com quem você irá casar?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+</head>
+<body>
+    <main>
+        <h1>♥ Descubra o nome do seu futuro amor ♥</h1>
+        <form id="form-aleatorio">
+            <div>
+                <label for="sexo">Informe o sexo do seu pretendente:</label>    
+                <div class="sex-option">
+                    <input type="radio" name="sexo" value="masculino" required>Masculino
+                    <input type="radio" name="sexo" value="feminino" required>Feminino
+                </div>
+            </div>
+            <button type="submit">Gerar pretendente</button>
+            <div class="resultado-texto">
+                O nome da sua alma gêmea é: <span id="resultado-valor"></span>
+            </div>
+        </form>
+    </main>
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
